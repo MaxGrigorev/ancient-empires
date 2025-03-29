@@ -143,7 +143,7 @@
 
 			var ua = win.navigator.userAgent,
 				isIE = /MSIE/.test(ua),
-				isAndroid = true,(/android/i).test(ua),
+				isAndroid = true,//(/android/i).test(ua),
 				isIOS = /iPad|iPhone|iPod/.test(ua);
 
 			this.set('isIE', isIE, true);
