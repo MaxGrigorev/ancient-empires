@@ -121,6 +121,9 @@
 
 		util.setWrapperStyle($('body'));
 
+		APP.router.companies();
+		APP.router.goToBattle();
+
 		function back() {
 			if (win.location.hash) {
 				history.back();
@@ -128,7 +131,7 @@
 			}
 		}
 
-		back();
+		// back();
 
 	}
 

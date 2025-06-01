@@ -515,7 +515,7 @@
 			var $unit = this.getUnitById(moveUnit.id),
 				size = this.squareSize;
 			$unit[0].style[info.preJS + 'Transform'] = 'translate(' +  moveUnit.x * size + 'px, ' + moveUnit.y * size + 'px)';
-			//$unit.css( info.preCSS + 'transform', 'translate(' +  moveUnit.x * size + 'px, ' + moveUnit.y * size + 'px)');
+			$unit.css( info.preCSS + 'transform', 'translate(' +  moveUnit.x * size + 'px, ' + moveUnit.y * size + 'px)');
 		},
 
 		showEndUnitTurn: function(unit) {
